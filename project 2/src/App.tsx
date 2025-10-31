@@ -180,7 +180,7 @@ function App() {
 
       <div className="experimental-setup">
         <h3 className="setup-title">Schéma Expérimental du TP</h3>
-        <img src="/Phase 1-8 copy.png" alt="Schéma expérimental du TP moteur asynchrone" className="setup-diagram"/>
+        <img src="Phase 1-8 copy.png" alt="Schéma expérimental du TP moteur asynchrone" className="setup-diagram"/>
       </div>
 
       <footer className="app-footer">
