@@ -1,8 +1,8 @@
 import { useState, useEffect, useRef } from 'react';
 
 function App() {
-  const [voltage, setVoltage] = useState(400);
-  const [frequency, setFrequency] = useState(32.3);
+  const [voltage, setVoltage] = useState(0);
+  const [frequency, setFrequency] = useState(0);
   const rotorRef = useRef<SVGGElement>(null);
   const animationRef = useRef<number>(0);
 
