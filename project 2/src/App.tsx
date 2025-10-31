@@ -7,7 +7,7 @@ function App() {
   const animationRef = useRef<number>(0);
 
   const p = 2;
-  const s = 0.0559;
+  const s = 0.0625;
   const speed = frequency === 0 ? 0 : Math.round(60 * frequency / p * (1 - s));
   const uf = frequency === 0 ? "—" : (voltage / frequency).toFixed(2);
 
